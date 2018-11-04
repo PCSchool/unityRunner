@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1010203878124286}
+  m_IsPrefabParent: 1
+--- !u!1 &1010203878124286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4066615567271068}
+  - component: {fileID: 114497777770275764}
+  m_Layer: 0
+  m_Name: GameControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4066615567271068
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1010203878124286}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.11162114, y: 1.5, z: 4.06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114497777770275764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1010203878124286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 606c103ca64b14c42aad9089637fc092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 1605274518286478, guid: 2762edc09c02a76419030ae193460f72, type: 2}
+  Banana: {fileID: 1278412104314934, guid: 7f7e776805942934aa869a4d07b9ce42, type: 2}
+  Pineapple: {fileID: 1362014700902700, guid: 79e3cdf805618ab4d8ed4a0daba20ec7, type: 2}
+  Watermelon: {fileID: 1147420484610264, guid: ff02814fe6131e74c9a2ec4959ceecf6, type: 2}
+  Fence: {fileID: 1972474175695658, guid: eb91ec31a3733cd42bf67f287c67dbcd, type: 2}
+  longFence: {fileID: 1444494272542636, guid: 28d0bb215569b8b43aba46c9c9d2a21d, type: 2}
+  SpeedUp: {fileID: 1978465436756228, guid: ceee5fe277a5c9e48a6f87ddabbd33c4, type: 2}
+  SpeedDown: {fileID: 1510459331028078, guid: 164e5bed2f5f1834085b7dd431d61cc6, type: 2}
+  Terrain: {fileID: 1250417824809044, guid: 37600062a720b1a4fbc3361537c1f132, type: 2}
+  Road: {fileID: 1215907320475764, guid: eca6c9694c3246b46b645bffa15a4bad, type: 2}
+  TerrainLeft: {fileID: 0}
+  TerrainRight: {fileID: 0}
+  Turn: {fileID: 0}
+  gameOver: 0
+  scoreAmount: 0

@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 606c103ca64b14c42aad9089637fc092
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Player: {fileID: 1605274518286478, guid: 2762edc09c02a76419030ae193460f72, type: 2}
+  - Banana: {fileID: 1278412104314934, guid: 7f7e776805942934aa869a4d07b9ce42, type: 2}
+  - Pineapple: {fileID: 1362014700902700, guid: 79e3cdf805618ab4d8ed4a0daba20ec7,
+      type: 2}
+  - Watermelon: {fileID: 1147420484610264, guid: ff02814fe6131e74c9a2ec4959ceecf6,
+      type: 2}
+  - Fence: {fileID: 1972474175695658, guid: eb91ec31a3733cd42bf67f287c67dbcd, type: 2}
+  - Barrel: {fileID: 1102628860855398, guid: fb20f47e5d1781343a58e5a9f7473627, type: 2}
+  - SpeedUp: {fileID: 1978465436756228, guid: ceee5fe277a5c9e48a6f87ddabbd33c4, type: 2}
+  - SpeedDown: {fileID: 1510459331028078, guid: 164e5bed2f5f1834085b7dd431d61cc6,
+      type: 2}
+  - Terrain: {fileID: 1250417824809044, guid: 37600062a720b1a4fbc3361537c1f132, type: 2}
+  - Road: {fileID: 1815283222828184, guid: 37600062a720b1a4fbc3361537c1f132, type: 2}
+  - TerrainLeft: {fileID: 1132608120806518, guid: 41e9b2e31ef6efe4984be956ace71f08,
+      type: 2}
+  - TerrainRight: {fileID: 1737179756599280, guid: 3cf6213040e9cb640af5104d6564be8d,
+      type: 2}
+  - Turn: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
